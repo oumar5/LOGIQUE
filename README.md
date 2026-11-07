@@ -19,9 +19,11 @@ LOGIQUE/
 │   └── 04-Logique-premier-ordre/     (chapitres 15 à 17)
 ├── 02-TD-TP/                         ← un dossier par partie du cours
 │   ├── 1-Logique-propositionnelle/   énoncés proposés + corrections
-│   ├── 2-FNC-et-SAT/                 TD2 fourni + correction, énoncés proposés + corrections, code/
+│   ├── 2-FNC-et-SAT/                 TD2 et TD3 fournis + corrections, énoncés proposés + corrections,
+│   │                                 code/ (sudoku.py, table_ronde.py, hidoku.py du TD2)
 │   ├── 3-Termes/                     énoncés proposés + corrections
 │   ├── 4-Premier-ordre/              énoncés proposés + corrections
+│   ├── DS1-Preparation/              feuille de préparation au DS1 + simulation d'examen, avec corrections
 │   └── _Modele-TD/                   à copier pour ajouter un nouveau TD
 └── 03-Revisions/                     ← fiche mémo, méthodes, quiz + correction
 ```
@@ -59,8 +61,8 @@ flowchart LR
 | 5 | [Le problème SAT](01-Cours/02-SAT/5-Probleme-SAT.md) | existe-t-il une solution ? | [TD2 fourni](02-TD-TP/2-FNC-et-SAT/TD2-enonce-fourni.md) · [correction](02-TD-TP/2-FNC-et-SAT/TD2-correction.md) |
 | 6 | [Modéliser avec SAT](01-Cours/02-SAT/6-Modeliser-avec-SAT.md) | planning, plan de table, coloriage → clauses | [énoncés proposés](02-TD-TP/2-FNC-et-SAT/enonces-proposes.md) · [corrections](02-TD-TP/2-FNC-et-SAT/corrections-proposes.md) |
 | 7 | [SAT en Python](01-Cours/02-SAT/7-SAT-en-Python.md) | des listes de numéros pour le solveur | ⬆️ |
-| 8 | [Tseitin](01-Cours/02-SAT/8-Tseitin.md) | nommer les sous-formules pour éviter l'explosion | ⬆️ |
-| 9 | [DPLL](01-Cours/02-SAT/9-DPLL.md) | résoudre comme un Sudoku | ⬆️ |
+| 8 | [Tseitin](01-Cours/02-SAT/8-Tseitin.md) | nommer les sous-formules pour éviter l'explosion | ⬆️ + [TD3 fourni](02-TD-TP/2-FNC-et-SAT/TD3-enonce-fourni.md) · [correction](02-TD-TP/2-FNC-et-SAT/TD3-correction.md) |
+| 9 | [DPLL](01-Cours/02-SAT/9-DPLL.md) | résoudre comme un Sudoku | ⬆️ + TD3 |
 | 10 | [Opérateurs en programmation](01-Cours/02-SAT/10-Operateurs-en-programmation.md) | `and`/`or` regardent d'abord à gauche | ⬆️ |
 | 11 | [Les termes](01-Cours/03-Termes/11-Termes.md) | des expressions qui désignent des objets | [énoncés](02-TD-TP/3-Termes/enonces-proposes.md) · [corrections](02-TD-TP/3-Termes/corrections-proposes.md) |
 | 12 | [F-algèbres](01-Cours/03-Termes/12-Semantique-F-algebres.md) | une partition, plusieurs instruments | ⬆️ |
@@ -78,6 +80,8 @@ flowchart LR
 
 | Outil | Quand |
 |---|---|
+| 🎯 [Préparation au DS1 (feuille officielle)](02-TD-TP/DS1-Preparation/DS1-enonce-fourni.md) → [correction](02-TD-TP/DS1-Preparation/DS1-correction.md) | avant le DS1 : exercices d'anciens DS (ch. 1 à 6) |
+| ⏱️ [Simulation d'examen](02-TD-TP/DS1-Preparation/Simulation-enonce-fourni.md) → [correction](02-TD-TP/DS1-Preparation/Simulation-correction.md) | en conditions réelles : 2 h, sans document |
 | [Fiche mémo](03-Revisions/Fiche-memo.md) | la veille du DS |
 | [Méthodes pas à pas](03-Revisions/Methodes.md) | pendant les exercices |
 | [Quiz](03-Revisions/Quiz.md) → [correction](03-Revisions/Quiz-correction.md) | pour savoir où tu en es |
